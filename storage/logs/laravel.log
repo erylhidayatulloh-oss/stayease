@@ -1,0 +1,51 @@
+[2026-09-11 02:29:32] local.ERROR: The /Users/macbookair/SevenInc/StayEase-Revisi/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /Users/macbookair/SevenInc/StayEase-Revisi/bootstrap/cache directory must be present and writable. at /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(349): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1242): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /Users/macbookair/SevenInc/StayEase-Revisi/artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#10 {main}
+"} 
+[2026-09-11 02:30:13] local.ERROR: The /Users/macbookair/SevenInc/StayEase-Revisi/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /Users/macbookair/SevenInc/StayEase-Revisi/bootstrap/cache directory must be present and writable. at /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(349): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1242): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /Users/macbookair/SevenInc/StayEase-Revisi/artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#10 {main}
+"} 
+[2026-09-12 06:19:42] local.ERROR: Command "run" is not defined.
+
+Did you mean one of these?
+    cache:prune-stale-tags
+    model:prune
+    queue:prune-batches
+    queue:prune-failed
+    schedule:run {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"run\" is not defined.
+
+Did you mean one of these?
+    cache:prune-stale-tags
+    model:prune
+    queue:prune-batches
+    queue:prune-failed
+    schedule:run at /Users/macbookair/SevenInc/StayEase-Revisi/vendor/symfony/console/Application.php:759)
+[stacktrace]
+#0 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/symfony/console/Application.php(298): Symfony\\Component\\Console\\Application->find('run')
+#1 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/macbookair/SevenInc/StayEase-Revisi/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1242): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/macbookair/SevenInc/StayEase-Revisi/artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
