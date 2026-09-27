@@ -1,0 +1,13 @@
+# Stayease Indonesia Robots.txt
+User-agent: *
+Allow: /
+Allow: /kost/
+Allow: /apartemen/
+Allow: /villa/
+Allow: /kontrakan/
+Allow: /kota/
+Disallow: /admin/
+Disallow: /booking/checkout/
+Disallow: /api/
+
+Sitemap: https://stayease.id/sitemap.xml
